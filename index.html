@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- fonts link -->
+
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom CSS/style.css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media CSS file -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Bootstarap Components</title>
+  </head>
+  <body>
+
+
+    <section class="carusel-section mb-5">
+      <div class="container">
+        <div class="row">
+         <div class="col-lg-12">
+           <!-- Carousel -->
+
+           <div id="carouselslider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+            <!-- indicator -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselslider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselslider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselslider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselslider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselslider" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <!-- indicator -->
+
+
+            <!-- inner -->
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="slide1">
+                
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/slide2.jpg" class="d-block w-100" alt="slide2">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/slide3.jpg" class="d-block w-100" alt="slide3">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/slide4.jpg" class="d-block w-100" alt="slide4">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Fourth slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="images/slide5.jpg" class="d-block w-100" alt="slide5">
+
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Fifth slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+            </div>
+              <!-- inner -->
+
+              <!-- control button -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselslider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselslider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+              <!-- control button -->
+            </div>
+
+           <!-- Carousel -->
+         </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="accordion-section mb-5">
+      <div class="container">
+        <div class="accordion" id="accordionfaq">
+          <!-- item1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="html5">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                HTML5
+              </button>
+            </h2>
+            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="html5" data-bs-parent="#accordionfaq">
+              <div class="accordion-body">
+                <strong>HTML5</strong> is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and last major HTML version that is a World Wide Web Consortium recommendation. The current specification is known as the HTML Living Standard.
+              </div>
+            </div>
+          </div>
+          <!-- item2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="css3">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                CSS3
+              </button>
+            </h2>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="css3" data-bs-parent="#accordionfaq">
+              <div class="accordion-body">
+                Cascading Style Sheets Level 3 <strong>(CSS3)</strong> is the iteration of the CSS standard used in the styling and formatting of Web pages. CSS3 incorporates the CSS2 standard with some changes and improvements.
+
+                A key change is the division of standard into separate modules, which makes it easier to learn and understand. As of February 2014, the standard is still under development by the World Wide Web Consortium (W3C), but a number of the CSS3 properties have been implemented in the latest versions of some Web browsers.
+              </div>
+            </div>
+          </div>
+          <!-- item3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="js">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                JS/JavaScript
+              </button>
+            </h2>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="js" data-bs-parent="#accordionfaq">
+              <div class="accordion-body">
+                <strong>JavaScript</strong>, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.
+              </div>
+            </div>
+          </div>
+          <!-- item4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="php">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                PHP
+              </button>
+            </h2>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="php" data-bs-parent="#accordionfaq">
+              <div class="accordion-body">
+                <strong>PHP</strong>d is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation is now produced by The PHP Group.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="collapse-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseEx" role="button" aria-expanded="false" aria-controls="collapseEx">
+                Link with href
+              </a>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx" aria-expanded="false" aria-controls="collapseEx">
+              Button with data-bs-target
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quia, porro facilis consequuntur ullam culpa repudiandae maiores sint dolorem repellendus corporis, pariatur corrupti sunt, consequatur.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="button-section mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="dropdownbutton">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="dropdownlink">
+              <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="listgroup-section mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="row">
+           <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">About</a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Products</a>
+              <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Contact</a>
+            </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Lorem ipsum dolor, sit amet.</div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, sequi!</div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum omnis veritatis dolorem iste. Error!</div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt qui expedita ab quos tempore voluptatum alias nemo fugiat sapiente eum.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-section mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- static backdrop modal -->
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Launch static backdrop modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Static backdrop modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Molestias quaerat sunt, sint. Accusantium aut hic rerum commodi quibusdam maiores nesciunt eos harum voluptatem, itaque cupiditate nostrum minima. Molestias, laboriosam perspiciatis.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- static backdrop modal -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#verticallyscrollable">
+              Vertically centered scrollable modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="verticallyscrollable" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Vertically centered scrollable modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis quos obcaecati soluta nesciunt repellendus nisi, ab asperiores? Impedit quaerat labore ratione quis. Expedita veniam cumque quas dolorem similique nihil ab tempore eius. Possimus, nisi expedita ipsa aperiam incidunt quod, minima libero quia eligendi. Impedit debitis iste voluptates sequi itaque adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quisquam ad eius amet ducimus veniam, et voluptatum odio iste. Obcaecati eum sequi mollitia ab, quam ullam laboriosam, fugit illo magnam atque. Labore, quis esse qui vero porro impedit, culpa ea alias dolorem maiores numquam, eveniet tempora aliquid error minus, natus.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p>end</p>
+                  </div>
+<!--                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="navtab-section mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-5">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">About</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, libero, sequi minima eos delectus est, quam voluptate labore ab, illum consequuntur corporis tempora modi dolorem ad eaque dicta placeat inventore?</div>
+              <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veritatis, aspernatur minima quaerat qui sequi tempora recusandae neque cum vero.</div>
+              <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Nobis nesciunt repudiandae animi quisquam atque repellendus vitae enim veritatis sit veniam. Iure, dignissimos non quaerat animi magnam fugit nesciunt ex nobis rerum tempora qui dolor culpa, consectetur at delectus enim officiis.</div>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="d-flex align-items-start">
+              <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+                <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">About</button>
+                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Contact</button>
+              </div>
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi consequatur alias ducimus, iure deleniti tempora rerum eum id voluptas molestiae possimus porro atque! Harum, officiis!</div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt explicabo, atque rem reiciendis beatae ad aliquid itaque asperiores eligendi adipisci.</div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur sed ipsam nihil, aliquam quam, velit mollitia eos ullam id adipisci quidem sapiente rem iusto molestias sunt similique accusantium fuga.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      
+
+    <!-- JS link -->    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
